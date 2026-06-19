@@ -3,6 +3,11 @@
 ## What this project does
 End-to-end API test for Place Management API
 
+## Features
+- API chaining (POST → PUT → GET)
+- Dynamic data handling using place_id
+- Response validation using JsonPath and TestNG
+
 ## Test Flow
 1. POST - Add a new place, extract place_id
 2. PUT  - Update address using place_id
